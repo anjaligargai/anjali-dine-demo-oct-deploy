@@ -17,7 +17,7 @@ def get_approved_package(model_package_group_name):
         model_package_group_name: The model package group name.
 
     Returns:
-        The SageMaker Model Package ARN.
+        The SageMaker Model Package ARN
     """
     try:
         # Get the latest approved model package
